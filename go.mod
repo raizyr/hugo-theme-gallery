@@ -1,3 +1,3 @@
-module github.com/nicokaiser/hugo-theme-gallery/v4
+module github.com/raizyr/hugo-theme-gallery/v4
 
 go 1.20

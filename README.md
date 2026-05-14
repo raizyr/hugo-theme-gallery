@@ -3,11 +3,11 @@
 A very simple and opinionated photo gallery theme for Hugo.
 
 - [Demo](https://nicokaiser.github.io/hugo-theme-gallery/)
-- [Example site source](https://github.com/nicokaiser/hugo-theme-gallery/tree/main/exampleSite)
+- [Example site source](https://github.com/raizyr/hugo-theme-gallery/tree/main/exampleSite)
 
 ---
 
-![Screenshot](https://github.com/nicokaiser/hugo-theme-gallery/raw/main/images/screenshot.jpg)
+![Screenshot](https://github.com/raizyr/hugo-theme-gallery/raw/main/images/screenshot.jpg)
 
 ---
 
@@ -21,7 +21,7 @@ A very simple and opinionated photo gallery theme for Hugo.
 - SEO with Open Graph tags
 - Automatic (or manual) selection of feature/cover images
 
-**Important note: do not try to use WebP images.** The golang WebP implementation used in Hugo has a bug which leads to wrong image levels (dull looking images) upon resize. See [nicokaiser/hugo-theme-gallery#102](https://github.com/nicokaiser/hugo-theme-gallery/issues/102) for more details.
+**Important note: do not try to use WebP images.** The golang WebP implementation used in Hugo has a bug which leads to wrong image levels (dull looking images) upon resize. See [raizyr/hugo-theme-gallery#102](https://github.com/raizyr/hugo-theme-gallery/issues/102) for more details.
 
 ## Installation
 
@@ -40,13 +40,13 @@ Then add the theme to your `hugo.toml`:
 ```toml
 [module]
   [[module.imports]]
-    path = "github.com/nicokaiser/hugo-theme-gallery/v4"
+    path = "github.com/raizyr/hugo-theme-gallery/v4"
 ```
 
 ### As Git Submodule
 
 ```sh
-git submodule add --depth=1 https://github.com/nicokaiser/hugo-theme-gallery.git themes/gallery
+git submodule add --depth=1 https://github.com/raizyr/hugo-theme-gallery.git themes/gallery
 ```
 
 ## Usage
@@ -267,7 +267,7 @@ Use the `socialIcons` configuration key to add social icons on the bottom of eac
   [params.socialIcons]
     facebook = "https://www.facebook.com/"
     instagram = "https://www.instagram.com/"
-    github = "https://github.com/nicokaiser/hugo-theme-gallery/"
+    github = "https://github.com/raizyr/hugo-theme-gallery/"
     youtube = "https://www.youtube.com/"
     email = "mailto:user@example.com"
     linkedin = "https://linkedin.com/"

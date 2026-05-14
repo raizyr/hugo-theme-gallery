@@ -17,7 +17,7 @@ title = "Gallery"
   [params.socialIcons]
     facebook = "https://www.facebook.com/"
     instagram = "https://www.instagram.com/"
-    github = "https://github.com/nicokaiser/hugo-theme-gallery/"
+    github = "https://github.com/raizyr/hugo-theme-gallery/"
     youtube = "https://www.youtube.com/"
     email = "mailto:user@example.com"
     #website = "https://example.com"
@@ -49,12 +49,12 @@ title = "Gallery"
   [module.hugoVersion]
     min = "0.121.2"
   [[module.imports]]
-    path = "github.com/nicokaiser/hugo-theme-gallery/v4"
+    path = "github.com/raizyr/hugo-theme-gallery/v4"
 
 [menu]
   [[menu.footer]]
     name = "GitHub"
-    url = "https://github.com/nicokaiser/hugo-theme-gallery/"
+    url = "https://github.com/raizyr/hugo-theme-gallery/"
     weight = 3
 
 [services]
